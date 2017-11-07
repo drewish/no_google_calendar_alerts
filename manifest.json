@@ -3,7 +3,10 @@
   "description": "Disables the popup alert messages in Google Calendar.",
   "author": "andrew morton <drewish@katherinehouse.com>",
   "homepage_url": "https://github.com/drewish/no_google_calendar_alerts",
-  "version": "1.0",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "version": "1.0.1",
   "content_scripts": [
     {
       "matches": ["https://calendar.google.com/*"],
